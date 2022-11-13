@@ -1,0 +1,63 @@
+{
+  "name": "shui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.25.2",
+    "axios": "^0.19.0",
+    "customize-cra": "^0.2.14",
+    "echarts": "^4.2.1",
+    "griffith": "^1.5.0",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^16.8.6",
+    "react-highlight-words": "^0.16.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "reqwest": "^2.0.5",
+    "video-react": "^0.14.0",
+    "video.js": "^7.6.6",
+    "videojs-flash": "^2.2.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack server --config webpack.config.js --mode development",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.9",
+    "babel-loader": "^9.1.0",
+    "babel-preset-react-app": "^10.0.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.8.2",
+    "react-refresh": "^0.14.0",
+    "style-loader": "^3.3.1"
+  }
+}
